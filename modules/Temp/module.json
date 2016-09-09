@@ -1,0 +1,15 @@
+{
+    "name": "Temp",
+    "alias": "temp",
+    "description": "",
+    "keywords": [],
+    "active": 0,
+    "order": 0,
+    "providers": [
+        "Modules\\Temp\\Providers\\TempServiceProvider"
+    ],
+    "aliases": [],
+    "files": [
+        "start.php"
+    ]
+}

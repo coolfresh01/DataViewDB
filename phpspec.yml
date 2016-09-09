@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: DataViewDB
+        psr4_prefix: DataViewDB
+        src_path: app

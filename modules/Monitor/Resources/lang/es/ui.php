@@ -1,0 +1,138 @@
+<?php
+
+return [
+
+    'servers'                              =>  [
+        'unfulfilled_agreements'        =>  'Contratos Incumplidos de Clientes',
+        'data'                          =>  'Servidores de Bases de Datos',
+        'server_name'                   =>  'Nombre Servidor',
+        'server_ram'                    =>  'RAM (MB)',
+        'server_state'                  =>  'Estado',
+        'server_enviroment'             =>  'Ambiente',
+        'server_so'                     =>  'Sistema Operativo',
+        'num_agreements'                =>  'Cantidad de Contratos',
+        'num_servers'                   =>  'Cantidad de Servidores',
+        'name'                          =>  'Servidor'
+
+    ],
+    
+    'estadoservidor'        =>  [
+        'name'              =>  'Estado',
+        'names'             =>  'Estados Servidor',
+        'name_label'        =>  'Nombre',
+        'operation_label'   =>  'Operaciones',
+        'new_state'         =>  'Nuevo Estado',
+        'edit_state'        =>  'Editar Estado',
+        'button_update'     =>  'Actualizar',
+        'button_delete'     =>  'Eliminar',
+        'button_add'        =>  'Agregar',
+        'message_delete'    =>  'El estado :estado ha sido eliminado satisfactoriamente',
+        'message_create'    =>  'El estado :estado ha sido creado satisfactoriamente',
+        'message_update'    =>  'El estado :estado ha sido actualizado satisfactoriamente'
+    ],
+    
+    'estadodb'          =>  [
+        'name'              =>  'Estado',
+        'names'             =>  'Estados Base de Datos',
+        'name_label'        =>  'Nombre',
+        'operation_label'   =>  'Operaciones',
+        'new_state'         =>  'Nuevo Estado',
+        'edit_state'        =>  'Editar Estado',
+        'button_update'     =>  'Actualizar',
+        'button_delete'     =>  'Eliminar',
+        'button_add'        =>  'Agregar',
+        'message_delete'    =>  'El estado :estado ha sido eliminado satisfactoriamente',
+        'message_create'    =>  'El estado :estado ha sido creado satisfactoriamente',
+        'message_update'    =>  'El estado :estado ha sido actualizado satisfactoriamente'
+    ],
+    
+    'ambiente'          =>  [
+        'name'              =>  'Ambiente',
+        'names'             =>  'Ambientes de servidores de bases de datos',
+        'name_label'        =>  'Nombre',
+        'operation_label'   =>  'Operaciones',
+        'new_state'         =>  'Nuevo Ambiente',
+        'edit_state'        =>  'Editar Ambiente',
+        'button_update'     =>  'Actualizar',
+        'button_delete'     =>  'Eliminar',
+        'button_add'        =>  'Agregar',
+        'message_delete'    =>  'El ambiente :nombre ha sido eliminado satisfactoriamente',
+        'message_create'    =>  'El ambiente :nombre ha sido creado satisfactoriamente',
+        'message_update'    =>  'El ambiente :nombre ha sido actualizado satisfactoriamente'
+    ],
+    
+    'sistemaoperativo'      =>  [
+        'name'                  =>  'Sistema Operativo',
+        'names'                 =>  'Sistemas Operativos',
+        'name_label'            =>  'Nombre',
+        'operation_label'       =>  'Operaciones',
+        'new_state'             =>  'Nuevo Sistema Operativo',
+        'edit_state'            =>  'Editar Sistema Operativo',
+        'button_update'         =>  'Actualizar',
+        'button_delete'         =>  'Eliminar',
+        'button_add'            =>  'Agregar',
+        'message_delete'        =>  'El S.O :nombre ha sido eliminado satisfactoriamente',
+        'message_create'        =>  'El S.O :nombre ha sido creado satisfactoriamente',
+        'message_update'        =>  'El S.O :nombre ha sido actualizado satisfactoriamente',
+        'architecture'          =>  'Arquitectura',
+        'new_operatingsystem'   =>  'Nuevo Sistema Operativo',
+    ],
+    
+    'direccionip'               =>  [
+        'name'                  =>  'Direccion IP',
+        'names'                 =>  'IP\'s',
+        'name_label'            =>  'Nombre',
+        'operation_label'       =>  'Operaciones',
+        'new_ip'                =>  'Nueva IP',
+        'edit_ip'               =>  'Editar IP',
+        'button_update'         =>  'Actualizar',
+        'button_delete'         =>  'Eliminar',
+        'button_add'            =>  'Agregar',
+        'message_delete'        =>  'La IP :ip ha sido eliminada satisfactoriamente',
+        'message_create'        =>  'El IP :ip ha sido creada satisfactoriamente',
+        'message_update'        =>  'El IP :ip ha sido actualizada satisfactoriamente',
+        'ip_address'            =>  'Dirección IP',
+        'description'           =>  'Descripción',
+        'server_name'           =>  'Servidor',
+    ],
+    
+    'servidor'               =>  [
+        'name'                  =>  'Servidor',
+        'names'                 =>  'Servidores',
+        'name_label'            =>  'Nombre',
+        'operation_label'       =>  'Operaciones',
+        'new_server'            =>  'Nuevo Servidor',
+        'edit_server'           =>  'Editar Servidor',
+        'button_update'         =>  'Actualizar',
+        'button_delete'         =>  'Eliminar',
+        'button_add'            =>  'Agregar',
+        'message_delete'        =>  'El servidor :name ha sido eliminado satisfactoriamente',
+        'message_create'        =>  'El servidor :name ha sido creado satisfactoriamente',
+        'message_update'        =>  'El servidor :name ha sido actualizado satisfactoriamente',
+        'ip_address'            =>  'Dirección IP',
+        'description'           =>  'Descripción',
+        'server_name'           =>  'Servidor',
+        'server_ram'            =>  'Memoria RAM',
+    ],
+    
+    'database'               =>  [
+        'name'                  =>  'Base de Datos',
+        'names'                 =>  'Bases de Datos',
+        'name_label'            =>  'Nombre',
+        'operation_label'       =>  'Operaciones',
+        'sid'                   =>  'SID',
+        'new_db'            =>  'Nueva Base de Datos',
+        'edit_db'           =>  'Editar Base de Datos',
+        'button_update'         =>  'Actualizar',
+        'button_delete'         =>  'Eliminar',
+        'button_add'            =>  'Agregar',
+        'message_delete'        =>  'la Base de Datos :name ha sido eliminada satisfactoriamente',
+        'message_create'        =>  'La Base de Datos :name ha sido creada satisfactoriamente',
+        'message_update'        =>  'La Base de Datos :name ha sido actualizada satisfactoriamente',
+        'ip_address'            =>  'Dirección IP',
+        'description'           =>  'Descripción',
+        'server_name'           =>  'Servidor',
+        'server_ram'            =>  'Memoria RAM',
+    ],
+
+];
